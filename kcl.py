@@ -145,7 +145,7 @@ initial_state = {
     'sim_cluster': 5,
     'sim_size': 100,
     'sim_var': 8,
-    'k_seed': 31347,
+    'k_seed': 313,
     'k' : 5,
     'k_step': 0.0,
     'show': '',
