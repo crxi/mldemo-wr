@@ -39,7 +39,7 @@ def generate_clustered_data(num_clusters=3, total_points=100, seed=None,
         d['cluster'] = k
         dfs.append(d)
     df = pd.concat(dfs, ignore_index=True)
-    df = df.iloc[:total_points].round(3)
+    df = df.iloc[:total_points].round(6)
     df["cluster"] = df["cluster"].astype("category")
     return df
     

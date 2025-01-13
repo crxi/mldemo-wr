@@ -1,5 +1,5 @@
-numpy==2.2.1
-pandas==2.2.3
+numpy==1.26.4
+pandas==2.2.0
 plotly==5.24.1
-scipy==1.15.1
+scipy==1.11.4
 writer==0.8.2
